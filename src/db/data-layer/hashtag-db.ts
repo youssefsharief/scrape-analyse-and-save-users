@@ -4,7 +4,7 @@ import { logger } from '../../infrastructure/logger';
 
 @injectable()
 export class HashtagDb {
-    addHashtags(hashtags: string[]): Promise<IDbHashtagModel>[] {
+    addHashtags(hashtags: string[]): Array<Promise<IDbHashtagModel>> {
         return hashtags.map(async hashtag => {
             const newHashtag = new HashtagModel({ text: hashtag });
             try {
