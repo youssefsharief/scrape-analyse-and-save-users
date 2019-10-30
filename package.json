@@ -26,7 +26,7 @@
     "forever": "^0.15.3",
     "inversify": "^5.0.1",
     "jsdom": "^13.2.0",
-    "mongoose": "^5.4.11",
+    "mongoose": "^5.7.5",
     "reflect-metadata": "^0.1.13",
     "request": "^2.88.0",
     "rimraf": "^2.6.3",
